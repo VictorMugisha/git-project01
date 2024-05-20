@@ -6,41 +6,69 @@
     <title>Git Project 1 - Udacity Login Clone</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="shortcut icon" href="https://auth.udacity.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body class="max-w-[1440px] mx-auto bg-gray-100">
 
     <!-- IMPLEMENTING HEADER IN THE header_branch -->
-    <section class="bg-white py-8 flex items-center justify-center">
+    <section class="flex items-center justify-center py-8 bg-white">
         <img src="https://auth.udacity.com/static/media/logo.08dc9669.svg" class="w-32 sm:w-44">
     </section>
 
     <!-- IMPLEMENTING UDACITY FORM IN main_dev BRANCH -->
-    <section class="md:w-2/3 lg:w-1/2 mx-2 bg-white my-12 sm:mx-auto grid grid-cols-2">
-        <button class="font-bold uppercase py-6 text-gray-700">Sign Up</button>
-        <button class="font-bold uppercase py-6 text-gray-700 bg-gray-100">Sign In</button>
-        <div class="col-span-2 mt-4 flex flex-col items-center justify-center gap-1">
+    <section class="grid grid-cols-2 mx-2 my-12 bg-white md:w-2/3 lg:w-1/2 sm:mx-auto">
+        <button class="py-6 font-bold text-gray-700 uppercase">Sign Up</button>
+        <button class="py-6 font-bold text-gray-700 uppercase bg-gray-100">Sign In</button>
+        <div class="flex flex-col items-center justify-center col-span-2 gap-1 mt-4">
             <div class="text-center">
-                <h1 class="font-semibold text-xl md:text-5xl py-6">Create your account.</h1>
+                <h1 class="py-6 text-xl font-semibold md:text-5xl">Create your account.</h1>
                 <p class="text-lg">Build skills for today, tomorrow, and beyond.</p>
                 <p class="text-lg">Education to future-proof your career.</p>
             </div>
 
-            <div class="mt-5 flex items-center justify-between gap-4 w-full px-20">
-                <div class="flex items-center justify-start gap-3 border border-gray-300 cursor-pointer hover:bg-gray-50 w-full py-4 px-7">
+            <div class="flex items-center justify-between w-full gap-4 px-20 mt-5">
+                <div class="flex items-center justify-start w-full gap-3 py-4 border border-gray-300 cursor-pointer hover:bg-gray-50 px-7">
                     <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%3E%3Cpath%20fill%3D%22%234285F4%22%20d%3D%22M23.49%2C12.27%20C23.49%2C11.48%2023.42%2C10.73%2023.3%2C10%20L12%2C10%20L12%2C14.51%20L18.47%2C14.51%20C18.18%2C15.99%2017.33%2C17.24%2016.07%2C18.09%20L16.07%2C21.09%20L19.93%2C21.09%20C22.19%2C19%2023.49%2C15.92%2023.49%2C12.27%20Z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%2334A853%22%20d%3D%22M12%2C24%20C15.24%2C24%2017.95%2C22.92%2019.93%2C21.09%20L16.07%2C18.09%20C14.99%2C18.81%2013.62%2C19.25%2012%2C19.25%20C8.87%2C19.25%206.22%2C17.14%205.27%2C14.29%20L1.29%2C14.29%20L1.29%2C17.38%20C3.26%2C21.3%207.31%2C24%2012%2C24%20Z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%23FBBC05%22%20d%3D%22M5.27%2C14.29%20C5.02%2C13.57%204.89%2C12.8%204.89%2C12%20C4.89%2C11.2%205.03%2C10.43%205.27%2C9.71%20L5.27%2C6.62%20L1.29%2C6.62%20C0.47%2C8.24%200%2C10.06%200%2C12%20C0%2C13.94%200.47%2C15.76%201.29%2C17.38%20L5.27%2C14.29%20Z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%23EA4335%22%20d%3D%22M12%2C4.75%20C13.77%2C4.75%2015.35%2C5.36%2016.6%2C6.55%20L20.02%2C3.13%20C17.95%2C1.19%2015.24%2C0%2012%2C0%20C7.31%2C0%203.26%2C2.7%201.29%2C6.62%20L5.27%2C9.71%20C6.22%2C6.86%208.87%2C4.75%2012%2C4.75%20Z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="">
                     <p>Sign up with Google</p>
                 </div>
-                <div class="flex items-center justify-start gap-3 border border-gray-300 cursor-pointer hover:bg-gray-50 w-full py-4 px-7">
+                <div class="flex items-center justify-start w-full gap-3 py-4 border border-gray-300 cursor-pointer hover:bg-gray-50 px-7">
                     <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20fill%3D%22%231877F2%22%20d%3D%22M24%2C12%20C24%2C5.37257812%2018.6274219%2C0%2012%2C0%20C5.37257813%2C0%200%2C5.37257812%200%2C12%20C0%2C17.9895469%204.38822656%2C22.9539844%2010.125%2C23.8541719%20L10.125%2C15.46875%20L7.078125%2C15.46875%20L7.078125%2C12%20L10.125%2C12%20L10.125%2C9.35625%20C10.125%2C6.34875%2011.9165391%2C4.6875%2014.6575547%2C4.6875%20C15.9705%2C4.6875%2017.34375%2C4.921875%2017.34375%2C4.921875%20L17.34375%2C7.875%20L15.8305547%2C7.875%20C14.3398828%2C7.875%2013.875%2C8.80000781%2013.875%2C9.74899219%20L13.875%2C12%20L17.203125%2C12%20L16.6710937%2C15.46875%20L13.875%2C15.46875%20L13.875%2C23.8541719%20C19.6117734%2C22.9539844%2024%2C17.9895469%2024%2C12%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M16.6710938%2C15.46875%20L17.203125%2C12%20L13.875%2C12%20L13.875%2C9.74899219%20C13.875%2C8.80000781%2014.3398828%2C7.875%2015.8305547%2C7.875%20L17.34375%2C7.875%20L17.34375%2C4.921875%20C17.34375%2C4.921875%2015.9705%2C4.6875%2014.6575547%2C4.6875%20C11.9165391%2C4.6875%2010.125%2C6.34875%2010.125%2C9.35625%20L10.125%2C12%20L7.078125%2C12%20L7.078125%2C15.46875%20L10.125%2C15.46875%20L10.125%2C23.8541719%20C10.7359453%2C23.9500312%2011.362125%2C24%2012%2C24%20C12.637875%2C24%2013.2640547%2C23.9500312%2013.875%2C23.8541719%20L13.875%2C15.46875%20L16.6710938%2C15.46875%20Z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="">
                     <p>Sign up with Facebook</p>
                 </div>
             </div>
 
-            <div class="flex items-center justify-center gap-5 w-full px-20">
+            <div class="flex items-center justify-center w-full gap-5 px-20 py-5">
                 <div class="line h-[1px] w-full bg-gray-300"></div>
                 <p>or</p>
                 <div class="line h-[1px] w-full bg-gray-300"></div>
             </div>
+
+            <div class="flex flex-col items-start justify-start w-full gap-5 px-20 pb-5">
+                <input type="text" class="w-full px-4 text-lg border-2 border-gray-200 h-14 focus:outline-blue-600" placeholder="Email Address">
+                <div class="flex items-center justify-between w-full border-2 border-gray-200 h-14 focus:outline-blue-600">
+                    <input type="password" class="w-full px-4 text-lg focus:outline-none" placeholder="Password">
+                    <img src="./images/eye.svg" alt="" class="w-10">
+                </div>
+            </div>
+
+            <p class="text-sm text-center">By clicking "Sign in," you agree to our <span class="underline cursor-pointer">Terms of Use</span> and our <span class="underline cursor-pointer">Privacy Policy.</span></p>
+
+            <button class="w-64 text-white bg-[rgb(32,21,255)] h-16 my-6 font-bold text-xl rounded flex items-center justify-between px-5">Sign in
+                <span class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+            </button>
+
+            <p class="text-lg font-semibold text-center text-blue-700">Forgot the password?</p>
+            
+            <div class="flex items-center justify-center w-full gap-5 px-20 py-5">
+                <div class="line h-[1px] w-full bg-gray-300"></div>
+                <p>or</p>
+                <div class="line h-[1px] w-full bg-gray-300"></div>
+            </div>
+            
+            <p class="mb-6 text-lg font-semibold text-center text-blue-700">Sign in with your organization.</p>
+            
         </div>
     </section>
     
